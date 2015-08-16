@@ -1,67 +1,125 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!-- <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'> -->
-	<!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'> -->
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-	<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'> -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/about.css">
+	<head>
+		<title>Food Science Technology @ UC Berkeley</title>
+		<meta name = "viewport" content = "width ==  device-width, initial-scale = 1.0">
+		<link href = "css/bootstrap.min.css" rel = "stylesheet">
+		<link href = "css/styles.css" rel = "stylesheet">
+	</head>
+	<body>
+		<!-- Header Navbar -->
+		<nav class = "navbar navbar-default navbar-static-top">
+			<div class = "container">
+				<a href = "#" class = "navbar-brand">FST</a>
 
-	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-	<script>
+				<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+					<span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+				</button>
 
-	$(".content-body").ready(function() {
-		// $(".content-body").hide();
-		$(".content-body").fadeIn(500);
-	});
+				<div class = "collapse navbar-collapse navHeaderCollapse">
+					<ul class = "nav navbar-nav navbar-right">
+						<li><a href = "index.html">Home</a></li>
+						<li class = "active"><a href = "about.html">About</a></li>
+						<li><a href = "officers.html">Officers</a></li>
+						<li><a href = "#contact" data-toggle = "modal">Contact</a></li>
 
-	</script> 
-
-	<title>About FST</title>
-</head>
-
-
-
-
-<body>
-	<div class="content-body">
-		<div class="content-pane width70 left">
-			<img src="assets/img/group.jpg">
-		</div>
-		<div class="content-pane width30 right">
-			<div id="content">
-				<div id="about-title">
-					Food Science Technology
+					</ul>
 				</div>
-				<div id="about-desc">
-					<p>
-					
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula posuere tellus non pharetra. Curabitur placerat condimentum orci vitae luctus. Proin blandit egestas nulla, nec pretium risus feugiat a. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc lobortis laoreet est, a ultricies nunc ullamcorper eget. Nulla facilisi. Sed finibus sagittis erat. Nam posuere vel nisi a sodales. Praesent non commodo ipsum. Integer posuere at odio sed euismod. Curabitur eros nulla, eleifend sit amet semper non, lacinia ac nibh. Donec ut sem sit amet mi viverra blandit.
-					</p>
+			</div>
+		</nav>
 
-					<p>
-					Pellentesque vel sollicitudin diam, ut laoreet risus. Donec vehicula sit amet metus vitae tempor. Aenean mauris nunc, porttitor ac nibh vel, egestas tempus arcu. Donec maximus suscipit lorem eu efficitur. Phasellus augue turpis, consequat at lacus vel, pellentesque suscipit metus. Suspendisse potenti. Mauris interdum dolor convallis augue sollicitudin cursus. Phasellus cursus, ex non vehicula sagittis, magna purus egestas diam, rhoncus malesuada lectus arcu in neque.
-					</p>
+		<!-- Content Area -->
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-lg-12">
+					<div class = "panel panel-default">
+						<div class = "panel-body">
+							<div class = "page-header" style = "text-align:center">
+								<h3> What is FST? </h3>
+							</div>
 
-					<p>
-					Aliquam vel nulla vehicula, suscipit justo sit amet, vehicula nibh. Maecenas ultrices metus vitae posuere fringilla. Curabitur volutpat ornare nibh et dapibus. Nam nibh velit, tempor vitae felis at, semper ultrices sem. Proin ex nulla, condimentum vitae dictum a, maximus vel purus. Suspendisse augue nunc, consequat sit amet fermentum sit amet, mollis et dui.
-					</p>
+							<img class = "featuredImg" src = "assets/img/group.jpg" width = "100%">
+
+							<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+							<h3> Our mission </h3>
+
+							<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+		<!-- Fixed footer -->
+		<div class = "navbar navbar-default navbar-fixed-bottom">
 
-	<div class="navbar">
-		<div class="navbar-item navbar-logo"><img src="assets/img/logo.png"></div>
-		
-		<!-- nav links -->
-		<a href="index.html"><div class="navbar-item navbar-menuitem">Home</div></a>
-		<a href="about.html"><div class="navbar-item navbar-menuitem">About</div></a>
-		<!-- <a href="officers.html"><div class="navbar-item navbar-menuitem">Officers</div></a> -->
-		<a href="contact.html"><div class="navbar-item navbar-menuitem">Contact</div></a>
+			<div class = "container">
+				<p class = "navbar-text pull-left">Site built by William Zhuang for FST</p>
+			</div>
 
-		<div class="navbar-item navbar-right">@ UC Berkeley</div>
-	</div>
-</body>
+		</div>
+
+		<!-- Modal -->
+		<div class = "modal fade" id = "contact" role = "dialog">
+			<div class = "modal-dialog">
+				<div class = "modal-content">
+					<div class = "modal-header">
+						<h4>Contact Us!</h4>
+					</div>
+					<form class = "form-horizontal">
+					<div class = "modal-body">
+						<div class = "form-group">
+							<label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
+							<div class = "col-lg-10">
+
+								<input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+							</div>
+						</div>
+
+						<div class = "form-group">
+							<label for = "contact-email" class = "col-lg-2 control-label">Email:</label>
+							<div class = "col-lg-10">
+
+								<input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+							</div>
+						</div>
+
+						<div class = "form-group">
+							<label for = "contact-message" class = "col-lg-2 control-label">Message:</label>
+							<div class = "col-lg-10">
+
+								<textarea class = "form-control" rows = "8"></textarea>
+							</div>
+						</div>
+
+					</div>
+
+					<div class = "modal-footer">
+
+						<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+						<button class = "btn btn-primary" type = "submit">Send</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src = "js/bootstrap.js"></script>
+        <script>
+			$(".content-body").ready(function() {
+				/*$(".content-body").flowtype({
+					minimum   : 500,
+					maximum   : 1200,
+					minFont   : 5,
+					maxFont   : 40,
+					fontRatio : 115
+				});*/
+				// $(".content-body").hide();
+				$(".content-body").fadeIn(500);
+			});
+		</script>
+	</body>
 </html>
